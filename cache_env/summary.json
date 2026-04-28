@@ -1,44 +1,50 @@
 {
   "dataset": {
-    "num_quads": 373018,
-    "num_entities": 21085,
-    "num_relations": 251,
+    "num_entities": 23033,
+    "num_relations": 256,
     "time_range": [
       0,
-      5736
-    ]
+      7272
+    ],
+    "file_sizes": {
+      "train.txt": 373018,
+      "test.txt": 49545,
+      "valid.txt": 45995
+    },
+    "total_quads": 468558
   },
-  "temporal": {
-    "train_size": 0,
-    "test_size": 1789
+  "split": {
+    "train_size": 1789,
+    "test_size": 49545,
+    "valid_size": 45995
   },
   "environment": {
     "train": {
       "graph": {
         "nodes": 803,
-        "edges": 1701,
-        "avg_degree": 2.1183063511830635,
-        "max_degree": 20
+        "edges": 1789,
+        "avg_degree": 2.227895392278954,
+        "max_degree": 57
       },
       "query": {
-        "total": 0,
-        "start_ratio": 0,
-        "1hop_ratio": 0,
-        "multi_hop_ratio": 0
+        "total": 1789,
+        "start_ratio": 1.0,
+        "1hop_ratio": 1.0,
+        "multi_hop_ratio": 1.0
       }
     },
     "test": {
       "graph": {
         "nodes": 803,
-        "edges": 1701,
-        "avg_degree": 2.1183063511830635,
-        "max_degree": 20
+        "edges": 1789,
+        "avg_degree": 2.227895392278954,
+        "max_degree": 57
       },
       "query": {
-        "total": 1789,
-        "start_ratio": 1.0,
-        "1hop_ratio": 0.9675796534376747,
-        "multi_hop_ratio": 0.9821129122414757
+        "total": 49545,
+        "start_ratio": 0.5566252901402765,
+        "1hop_ratio": 0.11468362095065092,
+        "multi_hop_ratio": 0.2341305883540216
       }
     }
   }
