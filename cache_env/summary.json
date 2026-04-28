@@ -1,0 +1,45 @@
+{
+  "dataset": {
+    "num_quads": 373018,
+    "num_entities": 21085,
+    "num_relations": 251,
+    "time_range": [
+      0,
+      5736
+    ]
+  },
+  "temporal": {
+    "train_size": 0,
+    "test_size": 1789
+  },
+  "environment": {
+    "train": {
+      "graph": {
+        "nodes": 803,
+        "edges": 1701,
+        "avg_degree": 2.1183063511830635,
+        "max_degree": 20
+      },
+      "query": {
+        "total": 0,
+        "start_ratio": 0,
+        "1hop_ratio": 0,
+        "multi_hop_ratio": 0
+      }
+    },
+    "test": {
+      "graph": {
+        "nodes": 803,
+        "edges": 1701,
+        "avg_degree": 2.1183063511830635,
+        "max_degree": 20
+      },
+      "query": {
+        "total": 1789,
+        "start_ratio": 1.0,
+        "1hop_ratio": 0.9675796534376747,
+        "multi_hop_ratio": 0.9821129122414757
+      }
+    }
+  }
+}
